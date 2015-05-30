@@ -1,0 +1,11 @@
+3) How long did it take to run the process for each of these?
+
+On my system (mac):
+——————————
+
+real	      2m3.055s
+user	      2m0.808s
+sys	      0m2.010s
+
+On AWS:
+——————-
