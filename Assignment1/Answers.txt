@@ -3,9 +3,35 @@
 On my system (mac):
 ——————————
 
-real	      2m3.055s
-user	      2m0.808s
-sys	      0m2.010s
+real	2m10.615s
+user	2m10.857s
+sys	    0m3.270s
 
 On AWS:
 ——————-
+
+Running time was 268.0s (not counting time spent waiting for the EC2 instances)
+
+real	19m7.100s
+user	0m1.424s
+sys  	0m0.104s
+
+4) How many address tags are there in the input?
+
+Number of address tags: 2042
+
+output:
+-------
+bash-3.2# less *|grep "address"
+"address"	2042
+"addresses"	19
+"addressother"	1
+"ccbillingaddress"	1
+"creditcardbillingaddress"	1
+"emailaddressalternate"	1
+"eoneaddress"	1
+"otheraddresses"	31
+
+5) Does the local version and EMR version give the same answer?
+
+Yes
